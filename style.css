@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway',sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1589806036187-fcbc6a7a23b6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #00ffff;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1.2em;
+  font-size: 1.2em;
+  color: #f0f8ff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.nav li a:hover {
+  color: #00ffff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 225px auto;
+}
+
+h1 {
+  color: #f0f8ff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+p {
+  color: #00ffff54;
+  line-height: 1.9;
+  margin: 1.4em 4em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-bottom: 2em;
+}
+
+p:hover {
+  color: #00ffff;
+  cursor: pointer;
+}
+
+button {
+  background: #00ffff52;
+  padding: 12px 45px;
+  border: none;
+  font-size: 1.6em;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  transition: all .5s ease-in-out;
+}
+
+button:hover {
+  border-radius: 25px;
+  background: #f0f8ff48;
+  transform: translateY(10px);
+}
